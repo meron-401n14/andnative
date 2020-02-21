@@ -31,6 +31,7 @@
 #### Running the app
 * `npm start`
 * Endpoint: `/all-tasks/mark-undone/mark-done/update-task/delete-task`
+* start Emulator and scan QR code 
 
   
 #### Tests
