@@ -3,6 +3,18 @@ import { dateFix } from './util';
 import { View, Text, Switch, TextInput, Button } from 'react-native';
 import DateTimePicker from '@react-native-community/datetimepicker';
 
+/**
+ * 
+ * @param {obejct} props 
+ * initialize state variables of task , date 
+ * @return text and text input of task items 
+ * also button to save, cancel edited task 
+ * show date time props 
+ * text and switch for task isComplete state variable 
+ * export task edit 
+ * 
+ */
+
 function TaskEdit(props) {
     let [name, setName] = useState(props.task.name);
     let [description, setDescription] = useState(props.task.description);

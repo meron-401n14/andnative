@@ -4,6 +4,15 @@ import { attemptLogin } from './store/authReducer';
 import { View, Text, TextInput, Button } from 'react-native';
 import styles from './stylesheet.js';
 
+/**
+ * 
+ * @param {object} props  passing prop to child components 
+ * @return user email and password input and submit button 
+ * dispatch and action attempt login with the given email and password 
+ * connect login to store 
+ */
+
+
 function Login(props) {
     let [email, setEmail] = useState('');
     let [password, setPassword] = useState('');
@@ -11,8 +20,8 @@ function Login(props) {
     const login = () => {
         props.dispatch(attemptLogin(email, password));
     };
-
-    // TODO: DELETE WHEN NOT DEVELOPING
+//needs action while not on dev
+    // TODO: DELETE WHEN NOT DEVELOPING 
     useEffect(() => {
         props.dispatch(attemptLogin('sarah@sarah.com', 'sarahpassword'));
     }, []);

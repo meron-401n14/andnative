@@ -1,6 +1,11 @@
 import React from 'react';
 import { View, Text } from 'react-native';
 
+/**
+ * @function Task add 
+ * supposed to be filled 
+ */
+
 function TaskAdd() {
     return (
         <View>

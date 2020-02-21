@@ -13,6 +13,16 @@ import {
 } from './store/taskReducer';
 import * as ImagePicker from 'expo-image-picker';
 
+/**
+ * 
+ * @param {object} props 
+ * initialize state of edit task to null , image 
+ * create new array taskObject and lunch task edit action change state and dispatch an action edit
+ * and have updated data 
+ * push updated task and dispatched actions to the declared array taskObject 
+ * export TaskList component 
+ */
+
 function TaskList(props) {
     let [edit, setEdit] = useState(null);
     let taskObjects = [];
@@ -53,6 +63,12 @@ function TaskList(props) {
             />,
         );
     }
+
+
+    /**
+     * image picker function 
+     * pick image and setresult state uri 
+     */
 
     const pickImage = async () => {
         let result = await ImagePicker.launchImageLibraryAsync({

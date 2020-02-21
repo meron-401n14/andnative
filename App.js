@@ -3,12 +3,20 @@ import { StyleSheet, Text, View, ScrollView } from 'react-native';
 import { Provider } from 'react-redux';
 import store from './store';
 import TaskList from './TaskList';
+import TaskEdit from './TaskEdit';
 import Login from './Login';
 import Logout from './Logout';
 import AuthViewer from './AuthViewer';
 import styles from './stylesheet.js';
 
+/**
+ * @function component App exports 
+ * render view elemnets 
+ * warapped with Provider to access store 
+ */
+
 export default function App() {
+    const [isComplete, setIsComplete] = useState(false);
     return (
         <Provider store={store}>
             <View style={styles.container}>
@@ -16,11 +24,13 @@ export default function App() {
                     <Login />
                 </AuthViewer>
 
-                <AuthViewer>
+                <AuthViewer >
                     <ScrollView style={styles.scrollView}>
                         <Logout />
                         <TaskList />
+
                     </ScrollView>
+                        
                 </AuthViewer>
             </View>
         </Provider>

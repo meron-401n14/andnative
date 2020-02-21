@@ -13,42 +13,13 @@ const incomplete = {
     color: 'red',
 };
 
-/*
-<div className={props.isComplete ? 'complete' : 'incomplete'}>
-            {props.name ? <p>{props.name}</p> : ''}
-            {props.description ? <p>{props.description}</p> : ''}
-            {props.date ? (
-                <p>{new Date(props.date).toLocaleDateString()}</p>
-            ) : (
-                ''
-            )}
-            {props.priority ? <p>Priority: {props.priority}</p> : ''}
-            <label>
-                Is Complete?
-                <input
-                    type='checkbox'
-                    checked={props.isComplete}
-                    onChange={e => {
-                        props.toggle(props.id, props.isComplete);
-                    }}
-                ></input>
-            </label>
-            <button
-                onClick={e => {
-                    props.edit(props);
-                }}
-            >
-                Edit
-            </button>
-            <button
-                onClick={e => {
-                    props.delete(props.id);
-                }}
-            >
-                Delete
-            </button>
-        </div>
-*/
+/**
+ * 
+ * @param {object} props pass task props (textstyle and background) style to each
+ * style background and text style of each task elemnt based of progress 
+ * @return based of state each elemnt 
+ * delete and edit button 
+ */
 
 function Task(props) {
     let taskStyle = {

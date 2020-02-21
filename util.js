@@ -2,11 +2,13 @@
 
 //export const api = 'https://js401n14-todo-server.herokuapp.com';
 
-//export const api = 'https://to-donew.herokuapp.com';
+export const api = 'https://to-donew.herokuapp.com';
 
 
 // replace this url with your personal API url
-export const api = 'https://js401n14-todo-server.herokuapp.com';
+//export const api = 'https://js401n14-todo-server.herokuapp.com';
+
+//connection to the back end and date time fix 
 
 export const dateFix = date => {
     let dateObj = new Date(date);
