@@ -25,6 +25,7 @@
 
 ### Setup
 #### `.env` requirements
+* 
 * Plat form Android 
 * backend deployed on Heroku 
 
