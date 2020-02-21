@@ -5,10 +5,10 @@
 ##### Author: Meron
 
 ##### Links and Resources
-* [submission PR](https://github.com/meron-401n14/andnative/blob/master)
-* [travis](https://travis-ci.com/malemu17/newlab-30/builds/148021511)
+* [submission PR](https://github.com/meron-401n14/andnative/pull/1)
+* [travis](https://travis-ci.com/meron-401n14/andnative/builds/149970737)
 * [Heroku](https://to-donew.herokuapp.com/)
-* [codesandbox.io](https://codesandbox.io/s/github/malemu17/newlab-30)
+* [codesandbox.io](https://codesandbox.io/s/unruffled-dan-g070u)
 
 
 #### Documentation
