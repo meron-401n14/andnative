@@ -5,7 +5,7 @@
 ##### Author: Meron
 
 ##### Links and Resources
-* [submission PR](https://github.com/malemu17/newlab-30)
+* [submission PR](https://github.com/meron-401n14/andnative/blob/master)
 * [travis](https://travis-ci.com/malemu17/newlab-30/builds/148021511)
 * [Heroku](https://to-donew.herokuapp.com/)
 * [codesandbox.io](https://codesandbox.io/s/github/malemu17/newlab-30)
